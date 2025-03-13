@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('./images/fondo.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* esta es toda la seccion de navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  
+  .navbar nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin-left: 2rem;
+    font-size: 2.3rem;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar nav ul li a:hover {
+    color: #b5a29a;
+  }
+
+  .logo-img {
+    width: 100px; 
+    height: auto;
+}
+
+
+/* esta seccion es la que hace que el logo sea redondo y tenga un borde amarillo arriba y abajo */
+header img {
+    border-radius: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-bottom-color: rgb(242, 255, 62);
+    border-top-color: rgb(242, 255, 62);
+}
+
+
+/* esta es toda la seccion de bienvenida */
+
+.wellcome-section {
+  display: flex; 
+  align-items: flex-start;
+  padding: 2rem 7rem; 
+  margin: 3%;
+}
+
+.wellcome-content {
+  flex: 1; 
+  text-align: center; 
+}
+
+.h1-tittle {
+  font-size: 5rem;
+  color: white;
+}
+
+.p-introduction {
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0;
+}
+
+/* ... tu código CSS actual ... */
+
+.img-right {
+  width: 30%;
+  max-height: 100%;
+  object-fit: cover; 
+  margin-left: 20px; 
+}
+
+  
+
+
+/* aqui es donde se encuentra las seccion de nuestras ventajas o puntos fuertes (comodidad, puntualidad y economia) */
+.advantages {
+    padding: 2rem 7rem;
+    text-align: center;
+  }
+  
+  .advantages h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  
+  .advantage-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }  
+
+.advantage {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .advantage img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .advantage h3 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .advantage p {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+  }
+  
+  .advantage .price {
+    color: #b5a29a;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  
+  .advantage .btn {
+    background-color: #95714F;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .advantage:hover {
+    transform: translateY(-10px);
+  }
+  
+  .advantage .btn:hover {
+    background-color: #C7AF94;
+  }
+
+
